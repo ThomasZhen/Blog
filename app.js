@@ -6,7 +6,8 @@ express        = require("express"),
 app            = express();
 
 // app config
-mongoose.connect("mongodb://localhost:27017/restful_blog_app", {useNewUrlParser: true});
+// mongoose.connect("mongodb://localhost:27017/restful_blog_app", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://thomas:Qq810834514@cluster0-o4tu7.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true});
 // You don't need to type ejs all the time
 app.set("view engine", "ejs");
 app.use(express.static("public"));
