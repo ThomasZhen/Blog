@@ -1,0 +1,16 @@
+This is a blog website
+
+It has the basic functionality of a blog which is crate a post and delete a post.
+
+The technical stack:
+front end: HTML, CSS
+back end: JavaScript
+framework: Express
+database: MongoDB Atlas
+server: Heroku
+
+Website: https://quiet-headland-78189.herokuapp.com/blogs
+
+
+
+
